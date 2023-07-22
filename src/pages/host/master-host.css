@@ -1,0 +1,252 @@
+
+
+
+.host-background{
+    min-height: 350px;
+    background: url('https://pars.host/wp-content/uploads/2021/08/host-banner.svg');
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.host-top{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    
+}
+
+.ho{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.host-top-right{
+    padding-top: 20px;
+}
+.host-top-left{
+    padding-top: 20px;
+    
+}
+
+
+.host-top-left>h5,
+.host-top-right>h5{
+    font-size: 14px;
+
+
+}
+
+
+.host-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    /* background-color: yellow; */
+}
+
+
+.host-title>h3{
+    font-size:25px;
+    font-weight: bold;
+    color: #33334f;
+    text-align: center;
+
+}
+
+.host-title>h6{
+    width: 70%;
+    font-size:14px ;
+    color: #717171;
+
+}
+
+
+.host-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.host-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.host-boxs{
+    background-color:white;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #6068d1;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(10 15 89 / 33%);
+    position: relative;
+}
+
+.host-boxs:hover::before{
+    opacity: 1;
+}
+
+.host-boxs::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #687cbd41;
+    display: flex;
+    border-radius: 10px;
+    transition: 0.4s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.host-boxs::after{
+    content: '>';
+    width: 0px;
+    height: 100%;
+    background-color: #6068d1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 0;
+    border: 2px solid #6068d1;
+    color: white;
+}
+
+
+.host-boxs:hover::after{
+    width: 40px;
+    opacity: 1;
+    
+}
+
+.host-boxs>.pic{
+    width: 90px;
+    height: 80px;
+    /* background-color: yellow; */
+}
+
+.host-boxs>.pic>img{
+    width: 100%;
+    height: 100%;
+}
+.host-boxs>.matn{
+    /* background-color: red; */
+    /* width: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.host-boxs>.matn>h5{
+font-size: 15px;    
+padding-top: 10px;
+}
+.host-boxs>.matn>p{
+font-size: 12px;    
+
+}
+
+
+
+
+/* end boxs///////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.host-mid1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.host-mid1-wrap{
+    min-height: 500px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.host-mid1-right{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.host-mid1-right>img{
+    width: 80%;
+    height: 70%;
+}
+
+
+.host-mid1-left>h4{
+    font-weight: bold;
+    font-size: 24px;
+    color: #212529;
+}
+.host-mid1-left>p{
+font-size: 14px;
+text-align: justify;
+}
+
+
+
+
+/* end host mid1 /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.para{
+    min-height: 500px;
+    background-color: rgb(240,242,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para-wrap{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+
+.para-wrap>p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.para-wrap>h4{
+    text-align: right;
+    font-size: 24px;
+    margin-top: 15px;
+}

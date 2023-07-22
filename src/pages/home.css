@@ -1,0 +1,14 @@
+.background{
+    min-height: 550px;
+    background: url('https://pars.host/wp-content/uploads/2021/08/BANNER-ASLI3-02-summer1.svg');
+    background-repeat: no-repeat;
+    background-position:  left;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+

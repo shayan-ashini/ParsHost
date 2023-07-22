@@ -1,0 +1,155 @@
+
+.work{
+    background: url('https://pars.host/wp-content/uploads/2021/05/Business-banner-1.svg');
+    min-height: 350px;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-wrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: white;
+}
+
+
+.work-wrap>h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.work-wrap>h6{
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+
+
+
+.work-big{
+    display: flex;
+    /* background-color: red; */
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.work-big>.work-big-wrap{
+    min-height: 350px;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-box{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248,248,255);
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+
+.mini-box{
+    min-height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.work-box>p{
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+    color: #505665;
+}
+
+.work-btn{
+    width: 100px;
+    height: 45px;
+    color: white;
+    background-color: rgb(116,175,69);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.work-btn:hover{
+    background-color: rgb(103, 157, 59);
+}
+
+.pin{
+    background-color: rgb(252,248,227);
+}
+
+.pin2{
+    background-color: rgb(242,222,222);
+}
+.pin3{
+    background-color: rgb(217,237,247);
+}
+.pin4{
+    background-color: rgb(223,240,216);
+}
+
+
+.work-btn2{
+    width: 180px;
+    height: 45px;
+    color: white;
+    background-color:rgb(255,113,101);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.work-btn2:hover{
+    background-color: rgb(242, 89, 75);
+}
+
+
+.work-svg{
+    background: url('../pages/img/7.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    background-color: rgb(240,242,255);
+    display: flex;
+    justify-content: center;
+}
+
+
+.top-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240,242,255);
+}
+
+
+.top-svg>h1{
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,170 @@
+@media screen and (max-width: 576px) {
+
+    
+    .mid1>.title>h3{
+        font-size: 20px;
+    }
+    .mid1-right>h3{
+        font-size: 20px;
+    }
+
+    .mid1-bottom-left>h3{
+        font-size: 18px;
+    }
+    .mid1-bottom-left>h5{
+        font-size: 12px;
+        font-weight: bold;
+
+     
+    }
+
+    nav>ul>li{
+        font-size: 12px;
+    }
+
+    .host-mid1-right>img{
+        width: 80%;
+        height: 80%;
+        
+    }
+
+
+    .domain-wrap>.right-domain-top>h3{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .domain-wrap>.right-domain-top>h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .domain-wrap>.right-domain-top>h5{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .domain-wrap>.right-domain-top>h6{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .background-domain>.domain-wrap>.right-domain-top>.domain-inp>span{
+        font-size: 12px;
+        width: 100px;
+        background-color: red;
+    }
+
+    .domain-big>.ox-wrap>.domain-box>.box-btn{
+        width: 120px;
+        font-size: 11px;
+        /* background-color: yellowgreen; */
+    }
+
+    .inp-btn {
+        top: 69%;
+    }
+
+    .ph-num{
+        font-size: 13px;
+        /* background-color: red; */
+    }
+
+
+    .inp-btn{
+        /* position: absolute; */
+        width: 80px;
+        height: 34px;
+        background-color: #bb2025;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: white;
+        font-size: 10px;
+    }
+    
+
+    .home-head>input{
+        width: 220px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 35px;
+        
+    }
+
+    
+
+    
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 876px) {
+
+    .slid-div{
+        box-shadow:none;
+        border-right: none;
+    }
+
+    .input-box>h6{
+        font-size: 15px;
+    }
+
+
+   
+
+
+}
+@media screen and (max-width: 1000px) {
+
+  
+
+    .input-box>h6{
+        font-size: 12px;
+        /* color: red; */
+    }
+
+
+   
+
+
+}
+/* @media screen and (max-width: 768px) {
+
+    .host-title>h6{
+        width: 90%;
+        font-size:12px ;
+        color: green;
+    
+    }
+
+  
+
+
+
+
+} */
+@media screen and (max-width: 1300px) {
+
+
+    header>nav>ul>li{
+        font-size: 12px;
+    }
+
+    .background-domain>.domain-wrap>.right-domain-top>.domain-inp>span{
+        font-size: 12px;
+        width: 150px;
+        background-color: rgb(187,32,37);
+    }
+
+
+}
+

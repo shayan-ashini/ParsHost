@@ -1,0 +1,207 @@
+
+
+
+footer{
+    height: auto;
+    background-color: rgb(51,51,79);
+    /* min-height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-box{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(95,95,117);
+}
+
+
+footer>h1{
+    font-weight: bold;
+    color: aqua;
+}
+
+
+
+
+
+footer>.footer-box>.left{
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer>.footer-box>.right{
+    /* background-color: rgb(127, 231, 108); */
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left>h6{
+    color: white;
+    font-size: bold;
+    font-size: 17px;
+}
+
+.left>.namad{
+
+    height: 110px;
+    background-color: rgb(254, 255, 254);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+    
+
+}
+.left>.namad>img{
+    /* object-fit: cover; */
+    object-position: center;
+
+
+
+}
+
+
+.left>.phone{
+    background-color: white;
+    height: 40px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(214,214,220);
+}
+
+.phone>i{
+    font-size: 30px;
+   color: rgb(214,214,220);
+
+}
+
+.left>.hami{
+    height: 150px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hami>img{
+    width: 100%;
+    height: 80%;
+}
+
+.hami>h6{
+    font-size: 13px;
+    color: white;
+}
+
+.right>.box{
+    height: 220px;
+}
+
+
+.right>.box>li{
+    list-style: square;
+    font-size: 12px;
+    padding-right: 20px;
+    color: rgb(86,121,186);
+    padding-top: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.right>.box>li:hover{
+
+    color: rgb(112, 154, 233);
+   
+}
+
+.right>.box>h3{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.last{
+    height: 30px;
+    display: flex;
+}
+
+.last>.icon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 5px;
+
+}
+
+.last>.icon>i{
+    padding-left: 5px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.last>.note{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    color: rgb(86,121,186);
+}
+.last>.note>span{
+    color: red;
+    padding-right: 3px;
+
+}
+
+
+.top-foot{
+    min-height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.top-one{
+    /* height: 80%; */
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.picc{
+
+    height: 90px;
+    /* background-color: red; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* font-weight: bold; */
+    color: rgb(78,62,86);
+    line-height: 27px;
+    font-size: 17px;
+    
+    
+
+}
+
+
+.picc>img{
+    width: 100%;
+    height: 90%;
+    padding-bottom: 5px;
+}

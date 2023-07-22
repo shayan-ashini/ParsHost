@@ -1,0 +1,43 @@
+
+
+.support-background{
+
+    background: url('https://pars.host/wp-content/uploads/2021/04/support-banner.svg');
+    display: flex;
+    min-height: 330px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+.support-background>h2{
+    font-size: 24px;
+    color: white;
+    margin-right: 150px;
+}
+
+
+.support-title{
+    min-height: 150px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.support-title>h3{
+    font-size: 23px;
+    color: #33334f;
+}
+.support-title>p{
+    font-size: 14px;
+    color: #505665;
+    text-align: center;
+    /* width: 95%; */
+}
+
